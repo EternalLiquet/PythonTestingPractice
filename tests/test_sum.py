@@ -10,6 +10,14 @@ class TestSum(unittest.TestCase):
         data = [1, 2, 3]
         result = sum(data)
         self.assertEqual(result, 6)
+    
+    def test_list_int_sad(self):
+        """
+        Sad case for testing a list of integers sum
+        """
+        data = [1, 2, 3]
+        result = sum(data)
+        self.assertNotEqual(result, 5)
 
 if __name__ == '__main__':
     unittest.main()
