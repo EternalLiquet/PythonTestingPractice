@@ -2,7 +2,7 @@ import unittest
 
 from my_sum import sum
 
-class TestSun(unittest.TestCase):
+class TestSum(unittest.TestCase):
     def test_list_int(self):
         """
         Test that it can sum a list of integers
